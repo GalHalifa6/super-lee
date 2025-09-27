@@ -95,8 +95,12 @@ public class SupplierService implements iOrderService{
     public Response createPeriodicOrder(int supplierID, int branchID, DayOfWeek fixedDay, HashMap<Integer, Integer> productsAndAmount) { return facadeSupplier.createPeriodicOrder(supplierID, branchID, fixedDay, productsAndAmount); }
     @Override
     public Order getOrderByID(int orderID) { return facadeSupplier.getOrderByID(orderID); }
+
     @Override
-    public HashMap<Integer, PeriodicOrder> getAllPeriodicOrderForToday() { return facadeSupplier.getAllPeriodicOrderForToday(); }
+    public HashMap<Integer, PeriodicOrder> getAllPeriodicOrderForToday() {
+        return facadeSupplier.getAllPeriodicOrderForToday(); }
+
+
 
     @Override
     public Response updateProductsInOrder(int orderID, HashMap<Integer, Integer> productsToAdd) { return facadeSupplier.updateProductsInOrder(orderID, productsToAdd); }

@@ -117,8 +117,8 @@ public class Main {
         java.util.Timer timerPeriodicOrder = new java.util.Timer();
         // Schedule the task to execute every day at 10:00am
         Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.HOUR_OF_DAY, 10);
-        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.HOUR_OF_DAY, 19);
+        calendar.set(Calendar.MINUTE, 44);
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.MILLISECOND, 0);
         if (calendar.getTimeInMillis() < System.currentTimeMillis())
@@ -357,26 +357,26 @@ public class Main {
             }
         }
 //Dates
-        LocalDate date1 = LocalDate.of(2023, 7, 26);
-        LocalDate date2 = LocalDate.of(2023, 7, 25);
-        LocalDate date3 = LocalDate.of(2023, 7, 30);
-        LocalDate date4 = LocalDate.of(2023, 8, 12);
-        LocalDate date5 = LocalDate.of(2023, 9, 1);
-        LocalDate date6 = LocalDate.of(2023, 10, 22);
-        LocalDate date7 = LocalDate.of(2023, 11, 17);
-        LocalDate date8 = LocalDate.of(2023, 12, 4);
+        LocalDate date1 = LocalDate.of(2026, 7, 26);
+        LocalDate date2 = LocalDate.of(2026, 7, 25);
+        LocalDate date3 = LocalDate.of(2026, 7, 30);
+        LocalDate date4 = LocalDate.of(2026, 8, 12);
+        LocalDate date5 = LocalDate.of(2026, 9, 1);
+        LocalDate date6 = LocalDate.of(2026, 10, 22);
+        LocalDate date7 = LocalDate.of(2026, 11, 17);
+        LocalDate date8 = LocalDate.of(2026, 12, 4);
         LocalDate date9 = LocalDate.of(2023, 1, 31);   //"Expired"
         LocalDate date10 = LocalDate.of(2023, 2, 28);  //"Expired"
         LocalDate date11 = LocalDate.of(2023, 3, 15);  //"Expired"
         LocalDate date12 = LocalDate.of(2023, 4, 8);   //"Expired"
         LocalDate date13 = LocalDate.of(2023, 5, 5);   //"Expired"
-        LocalDate date14 = LocalDate.of(2023, 6, 19);
-        LocalDate date15 = LocalDate.of(2023, 7, 23);
-        LocalDate date16 = LocalDate.of(2023, 8, 10);
-        LocalDate date17 = LocalDate.of(2023, 9, 2);
-        LocalDate date18 = LocalDate.of(2023, 10, 16);
-        LocalDate date19 = LocalDate.of(2023, 11, 21);
-        LocalDate date20 = LocalDate.of(2023, 5, 13);
+        LocalDate date14 = LocalDate.of(2026, 6, 19);
+        LocalDate date15 = LocalDate.of(2026, 7, 23);
+        LocalDate date16 = LocalDate.of(2026, 8, 10);
+        LocalDate date17 = LocalDate.of(2026, 9, 2);
+        LocalDate date18 = LocalDate.of(2026, 10, 16);
+        LocalDate date19 = LocalDate.of(2026, 11, 21);
+        LocalDate date20 = LocalDate.of(2026, 5, 13);
 //Discounts
 
 // discounts on p1 for all branches

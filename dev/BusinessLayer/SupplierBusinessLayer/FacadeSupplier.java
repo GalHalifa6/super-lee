@@ -6,6 +6,7 @@ import ServiceLayer.SupplierServiceLayer.ServiceContact;
 import Utillity.Response;
 import java.time.DayOfWeek;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -167,7 +168,10 @@ public class FacadeSupplier {
 
     public Order getOrderByID(int orderID) { return orderController.getOrderByID(orderID); }
 
-    public HashMap<Integer, PeriodicOrder> getAllPeriodicOrderForToday() { return periodicOrderController.getAllPeriodicOrderForToday(); }
+    public HashMap<Integer, PeriodicOrder> getAllPeriodicOrderForToday() {
+        return periodicOrderController.getAllPeriodicOrderForToday(); }
+
+
 
     public void printOrder(int supplierID) { orderController.printOrder(supplierID); }
 
